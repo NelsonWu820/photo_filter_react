@@ -35,10 +35,17 @@ code {
   width: 70%;
   height: 30px;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid gray;
 }
 
 .btn {
   box-sizing: border-box;
   height: 30px;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
 }

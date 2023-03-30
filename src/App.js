@@ -1,9 +1,11 @@
+import { useState } from "react"
+import PictureTags from "./picture-tags.json"
 import Header from "./components/Header";
 import Input from "./components/Input";
 import Pictures from "./components/Pictures";
 
 function App() {
-  var tagsHolder = []
+  const [tagsHolder, setTagsHolder] = useState([PictureTags])
   const callRender = ({tagsArray}) => {
     tagsHolder = [...tagsArray];
   } 

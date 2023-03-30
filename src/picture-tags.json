@@ -1,0 +1,6 @@
+{
+    "pictures": [
+        {"id": 1, "tags": "dog cat flower sun grass"},
+        {"id": 2, "tags": "dog flower"}
+    ]
+}

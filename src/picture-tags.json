@@ -1,7 +1,12 @@
 {
     "possibleTags": ["dogs", "cats", "flowers", "sun", "grass"],
-    "pictures": [
-        {"id": 1, "tags": "dog cat flower sun grass"},
-        {"id": 2, "tags": "dog flower"}
+    "dogs": [
+        {"id": 1, "tags": "dogs", "link": "../static/d1.jpg"},
+        {"id": 2, "tags": "dogs", "link": "../static/d2.jpg"},
+        {"id": 3, "tags": "dog flower", "link": "../static/df1.jpg"}
+    ],
+    "cats": [
+        {"id": 1, "tags": "cats", "link": "../static/c1.jpg"},
+        {"id": 2, "tags": "cats", "link": "../static/c2.jpg"}
     ]
 }

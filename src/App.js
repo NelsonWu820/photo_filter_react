@@ -6,8 +6,15 @@ import Pictures from "./components/Pictures";
 
 function App() {
   const [tagsHolder, setTagsHolder] = useState([PictureTags.possibleTags])
+  var boolHolder = true
   var callRender = ({tagsArray}) => {
-    setTagsHolder([...tagsArray]);
+    //checks if tags equals a picture
+    for(var i = 0; i < tagsArray.length; i++){
+      while(boolHolder){
+        if(tagsArray[i] === PictureTags.dogs){}
+      }
+    }
+    setTagsHolder();
   } 
   return (
     <div className="App">

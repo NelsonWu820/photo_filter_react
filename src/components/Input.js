@@ -2,7 +2,8 @@ import { useState } from "react"
 
 const Input = ({ render }) => {
   const [tags, setTags] = useState("");
-  var tagsArray = tags.split(",")
+  //should return an array of each word with no spaces
+  var tagsArray = tags.replace(/\s/g,'').split(",")
 
   const renderPhotos = () => {
     for(var i = 0; i < tagsArray.length; i++){

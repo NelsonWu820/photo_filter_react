@@ -43,6 +43,10 @@ code {
   height: 30px;
 }
 
+.pictures-section {
+  padding: 20px;
+}
+
 .pictures {
   display: grid;
   grid-template-columns: 10rem 10rem 10rem;

@@ -5,9 +5,9 @@ import Input from "./components/Input";
 import Pictures from "./components/Pictures";
 
 function App() {
-  const [tagsHolder, setTagsHolder] = useState([PictureTags])
-  const callRender = ({tagsArray}) => {
-    tagsHolder = [...tagsArray];
+  const [tagsHolder, setTagsHolder] = useState([PictureTags.possibleTags])
+  var callRender = ({tagsArray}) => {
+    setTagsHolder([...tagsArray]);
   } 
   return (
     <div className="App">

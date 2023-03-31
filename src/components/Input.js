@@ -8,7 +8,6 @@ const Input = ({ render }) => {
     for(var i = 0; i < tagsArray.length; i++){
       //check if tags are valid with case insensitive
       if(tagsArray[i] === "dogs" || tagsArray[i] === "cats") {
-        alert(tagsArray[i])
         render({tagsArray})
         return
       }

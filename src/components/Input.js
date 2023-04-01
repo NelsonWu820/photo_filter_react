@@ -5,18 +5,6 @@ const Input = ({ render }) => {
   //should return an array of each word with no spaces
   var tagsArray = tags.replace(/\s/g,'').split(",")
 
-  const renderPhotos = () => {
-    for(var i = 0; i < tagsArray.length; i++){
-      //check if tags are valid with case insensitive
-      if(tagsArray[i] === "dogs" || tagsArray[i] === "cats") {
-        render({tagsArray})
-        return
-      }
-    }
-    //return no photos with the tags "entire thing back"
-    alert("No photos with the tags: " + tags)
-    return
-  }
 
   const onSubmit = (e) => {
     e.preventDefault()
@@ -26,7 +14,7 @@ const Input = ({ render }) => {
       return
     }
 
-    renderPhotos();
+    render({tagsArray})
   }
 
   return (

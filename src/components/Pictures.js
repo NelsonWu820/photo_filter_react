@@ -1,9 +1,10 @@
 const Pictures = ({ tags }) => {
-  const cell = tags.map((obj) => <img href={obj}/>)
+  const cell = tags.map((obj) => <img src={obj} alt="with the tags" className="pictures"></img>)
+  
 
   return (
-    <section className="pictures-section">
-        <div className="pictures">{cell}</div>
+    <section>
+        <div className="pictures-section">{cell}</div>
     </section>
   )
 }

@@ -1,19 +1,19 @@
 {
     "possibleTags": ["dogs", "cats", "flowers", "sun", "grass"],
-    "a": [
+    "1": [
     ],
-    "b": [
+    "2": [
         {"tags": ["dogs", "dog"], "link": "../static/d1.jpg"},
         {"tags": ["dogs", "dog"], "link": "../static/d2.jpg"},
         {"tags": ["cats", "cat"], "link": "../static/c1.jpg"},
         {"tags": ["cats", "cat"], "link": "../static/c2.jpg"}
     ],
-    "c": [
+    "3": [
         
     ],
-    "d": [
+    "4": [
         {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df1.jpg"}
     ],
-    "e": [],
-    "f": []
+    "5": [],
+    "6": []
 }

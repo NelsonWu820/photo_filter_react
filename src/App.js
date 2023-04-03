@@ -11,20 +11,17 @@ function App() {
     //every tags img set gets 1 pass but every img set
     for(let i = 0; i < PictureTags[str].length; i++) {
       //every tag inside the user array
-      for (let j = 0; j <= length; j++) {
+      for (let j = 0; j < length; j++) {
         //runs through every tag in array of that img set
         for (let k = 0; k < str; k++) {
           //if every user tag is inside the tags array
           if(tagsArrayHolder[j] == PictureTags[str][i].tags[k]){
-            console.log(tagsArrayHolder[j] + " " + PictureTags[str][i].tags[k])
             counter ++;
           }
-          console.log("end k")
         }
         //if the user tags has all been matched
         if(counter == length){
-          console.log(counter + "counter" + length)
-          setImgHolder([...imgHolder, PictureTags[str][i].link])
+          setImgHolder(imgHolder => [...imgHolder, PictureTags[str][i].link])
           counter = 0
         }
       }
@@ -34,18 +31,20 @@ function App() {
     //checks if tags equals a picture
     let tagsArrayHolder = tagsArray
     let length = tagsArray.length
-    if(length < 5){
+    //resets the submit form and the imgHolder
+    setImgHolder([])
+    if(length < 10){
       switch (length) {
         case 1:
-          compareTags("1", length, tagsArrayHolder);
-        case 2:
           compareTags("2", length, tagsArrayHolder);
-        case 3:
-          compareTags("3", length, tagsArrayHolder);
-        case 4:
+        case 2:
           compareTags("4", length, tagsArrayHolder);
+        case 3:
+          compareTags("6", length, tagsArrayHolder);
+        case 4:
+          compareTags("8", length, tagsArrayHolder);
         case 5:
-          compareTags("5", length, tagsArrayHolder);
+          compareTags("10", length, tagsArrayHolder);
         break;
       }
     }

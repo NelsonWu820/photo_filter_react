@@ -15,7 +15,7 @@ function App() {
         //runs through every tag in array of that img set
         for (let k = 0; k < str; k++) {
           //if every user tag is inside the tags array
-          if(tagsArrayHolder[j] == PictureTags[str][i].tags[k]){
+          if(tagsArrayHolder[j].toUpperCase() == PictureTags[str][i].tags[k].toUpperCase()){
             counter ++;
           }
         }

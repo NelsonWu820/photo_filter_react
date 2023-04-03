@@ -3,7 +3,7 @@ const Pictures = ({ tags }) => {
   
   return (
     <section>
-        <div className="pictures-section">{cell}</div>
+        <div className="pictures-section" key={tags.id}>{cell}</div>
     </section>
   )
 }

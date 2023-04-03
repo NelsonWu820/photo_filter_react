@@ -1,5 +1,4 @@
 {
-    "possibleTags": ["dogs", "cats", "flowers", "sun", "grass"],
     "1": [
     ],
     "2": [
@@ -12,12 +11,23 @@
         
     ],
     "4": [
-        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df1.jpg"}
+        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df1.jpg"},
+        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc3.jpg"}
     ],
     "5": [],
-    "6": [],
+    "6": [
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../static/dcf1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../static/dcf2.jpg"}
+    ],
     "7": [],
-    "8": [],
+    "8": [
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft3.jpg"}
+    ],
     "9": [],
     "10": []
 }

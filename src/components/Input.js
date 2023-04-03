@@ -22,7 +22,7 @@ const Input = ({ render }) => {
   return (
     <section className="form-section">
         <form className="form" onSubmit={onSubmit}>
-            <input className="search-form" type="text" placeholder="Input a Possible Tag Like Dogs, Cats, Flowers, etc" 
+            <input className="search-form" type="text" placeholder="Input a Possible Tag Like Dogs, Cats, Flowers, Trees" 
             value={tags} onChange={(e) => setTags(e.target.value)}/>
             <input className="btn" type="submit" value="Search"/>
         </form>

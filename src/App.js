@@ -15,12 +15,12 @@ function App() {
         //runs through every tag in array of that img set
         for (let k = 0; k < str; k++) {
           //if every user tag is inside the tags array
-          if(tagsArrayHolder[j].toUpperCase() == PictureTags[str][i].tags[k].toUpperCase()){
+          if(tagsArrayHolder[j].toUpperCase() === PictureTags[str][i].tags[k].toUpperCase()){
             counter ++;
           }
         }
         //if the user tags has all been matched
-        if(counter == length){
+        if(counter === length){
           setImgHolder(imgHolder => [...imgHolder, PictureTags[str][i].link])
           counter = 0
         }
@@ -46,6 +46,8 @@ function App() {
         case 5:
           compareTags("10", length, tagsArrayHolder);
         break;
+        default:
+          break;
       }
     }
     else{

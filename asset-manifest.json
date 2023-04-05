@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/photo_filter_react/static/css/main.ad96a01f.css",
+    "main.js": "/photo_filter_react/static/js/main.ddf54141.js",
+    "static/js/787.abd51f9c.chunk.js": "/photo_filter_react/static/js/787.abd51f9c.chunk.js",
+    "index.html": "/photo_filter_react/index.html",
+    "main.ad96a01f.css.map": "/photo_filter_react/static/css/main.ad96a01f.css.map",
+    "main.ddf54141.js.map": "/photo_filter_react/static/js/main.ddf54141.js.map",
+    "787.abd51f9c.chunk.js.map": "/photo_filter_react/static/js/787.abd51f9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad96a01f.css",
+    "static/js/main.ddf54141.js"
+  ]
+}

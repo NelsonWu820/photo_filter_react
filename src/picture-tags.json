@@ -2,7 +2,7 @@
     "1": [
     ],
     "2": [
-        {"tags": ["dogs", "dog"], "link": "../static/d1.jpg"},
+        {"tags": ["dogs", "dog"], "link": "../build/static/d1.jpg"},
         {"tags": ["dogs", "dog"], "link": "../static/d2.jpg"},
         {"tags": ["cats", "cat"], "link": "../static/c1.jpg"},
         {"tags": ["cats", "cat"], "link": "../static/c2.jpg"}

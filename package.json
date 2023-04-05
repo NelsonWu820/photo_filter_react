@@ -4,6 +4,7 @@
   
   "version": "0.1.0",
   
+  "homepage": "https://nelsonwu820.github.io/photo_filter_react/",
   "private": true,
   
   "dependencies": {
@@ -38,6 +39,8 @@
   
     
   "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   
     
   "test": "react-scripts test",
@@ -106,6 +109,9 @@
   },
   
   "devDependencies": {
+  
+    
+  "gh-pages": "^5.0.0",
   
     
   "json-loader": "^0.5.7"

@@ -2,31 +2,31 @@
     "1": [
     ],
     "2": [
-        {"tags": ["dogs", "dog"], "link": "./public/static/d1.jpg"},
-        {"tags": ["dogs", "dog"], "link": "../public/static/d2.jpg"},
-        {"tags": ["cats", "cat"], "link": "../static/c1.jpg"},
-        {"tags": ["cats", "cat"], "link": "../static/c2.jpg"}
+        {"tags": ["dogs", "dog"], "link": "/images/d1.jpg"},
+        {"tags": ["dogs", "dog"], "link": "/public/images/d2.jpg"},
+        {"tags": ["cats", "cat"], "link": "../images/c1.jpg"},
+        {"tags": ["cats", "cat"], "link": "../images/c2.jpg"}
     ],
     "3": [
         
     ],
     "4": [
-        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df1.jpg"},
-        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../static/df2.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc1.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc2.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../static/dc3.jpg"}
+        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../images/df1.jpg"},
+        {"tags": ["dogs", "dog", "flowers", "flower"], "link": "../images/df2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../images/dc1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../images/dc2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat"], "link": "../images/dc3.jpg"}
     ],
     "5": [],
     "6": [
-        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../static/dcf1.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../static/dcf2.jpg"}
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../images/dcf1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower"], "link": "../images/dcf2.jpg"}
     ],
     "7": [],
     "8": [
-        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft1.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft2.jpg"},
-        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../static/dcft3.jpg"}
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../images/dcft1.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../images/dcft2.jpg"},
+        {"tags": ["dogs", "dog", "cats", "cat", "flowers", "flower", "trees", "tree"], "link": "../images/dcft3.jpg"}
     ],
     "9": [],
     "10": []

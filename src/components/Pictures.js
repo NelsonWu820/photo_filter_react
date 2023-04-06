@@ -1,9 +1,9 @@
 const Pictures = ({ tags }) => {
-  const cell = tags.map((obj) => <img src={obj} alt="with the tags" className="pictures"></img>)
+  const cell = tags.map((img, index) => <img src={String(img)} alt="with the tags" className="pictures" key={index}></img>)
   
   return (
     <section>
-        <div className="pictures-section" key={tags.id}>{cell}</div>
+        <div className="pictures-section">{cell}</div>
     </section>
   )
 }

@@ -13,7 +13,7 @@ Using React, we're crafting a dynamic user interface that allows users to input 
 
 Contact
 Nelson: Nelsonwu820@gmail.com <br />
-Live Link: https://amazon-like-frontend.vercel.app/
+Live Link: https://nelsonwu820.github.io/photo_filter_react/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

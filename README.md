@@ -2,13 +2,13 @@
 ---place gif
 
 # Description
-Using React to create a dynamic user interface, where the user can input multiple tags and if a picture has every tag it will then be displayed to the user all dynamically. Where the picture links are being stored in a json file to be easily read and served to the user.
+Using React, we're crafting a dynamic user interface that allows users to input multiple tags. When a picture encompasses all the specified tags, it dynamically appears for the user. The picture links are conveniently stored in a JSON file, facilitating easy access and serving to the user.
 
 ### Built With
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Vercel][Vercel.com]][Vercel-url]
+* [![GithubPages][GithubPages.com]][GithubPages-url]
 
 
 Contact
@@ -20,5 +20,6 @@ Live Link: https://amazon-like-frontend.vercel.app/
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-
+[GithubPages.com]: https://img.shields.io/badge/Github%20Pages-121013?logo=github&logoColor=white
+[GithubPages-url]: https://pages.github.com/
 

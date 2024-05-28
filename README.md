@@ -1,5 +1,4 @@
 # Photo Filter
----place gif
 
 # Description
 Using React, we're crafting a dynamic user interface that allows users to input multiple tags. When a picture encompasses all the specified tags, it dynamically appears for the user. The picture links are conveniently stored in a JSON file, facilitating easy access and serving to the user.
